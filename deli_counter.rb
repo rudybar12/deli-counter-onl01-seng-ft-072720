@@ -16,5 +16,5 @@ end
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
   spot = katz_deli,index(name) + 1
-  puts "Welcome #{name}.You are number #{spot} in line."
+  puts "Welcome, #{name}.You are number #{spot} in line."
 end
